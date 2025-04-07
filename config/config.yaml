@@ -1,0 +1,8 @@
+artifacts_config:
+  artifacts_dir: artifacts
+
+data_ingestion_config:
+  dataset_download_url: https://raw.githubusercontent.com/shivani983/skincare-recommendation-system/refs/heads/main/notebook/cosmetics.csv
+  dataset_dir: dataset
+  ingested_dir: ingested_data
+  raw_data_dir: raw_data
