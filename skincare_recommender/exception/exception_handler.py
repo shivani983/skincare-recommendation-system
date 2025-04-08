@@ -9,7 +9,7 @@ class AppException(Exception):
     def __init__(self,error_message: Exception, error_detail:sys):
         """ error"""
 
-        super.__init__(error_message)
+        super().__init__(error_message)
         self.error_message = AppException.error_message_detail(error_message,error_detail = error_detail)
         
 

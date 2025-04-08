@@ -1,6 +1,14 @@
 # skincare-recommendation-system
 ML model to recommend skincare products based on different criteria
 
+## workflow
+-config.yaml
+-entity
+-config/configuration.py
+-components
+-pipeline
+-main.py
+-app.py
 # how to run?
 
 ### steps:
@@ -25,5 +33,8 @@ conda activate skincare-env
 ```bash
 pip install -r requirements.txt
 ```
-
+# run the model
+```bash
+streamlit run app.py
+```
 
