@@ -44,9 +44,9 @@ def main():
 
     if st.button("Get Recommendations"):
        st.sidebar.title("3 essential steps of skincare")
-       st.sidebar.image("images\cleanser.png", caption="Cleanse", use_container_width = True)
-       st.sidebar.image("images\moistorizer.jpg", caption = "moisturize", use_container_width = True)
-       st.sidebar.image("images\sunscreen.jpg", caption = "protect", use_container_width = True)
+       st.sidebar.image(r"images/cleanser.png", caption="Cleanse", use_container_width = True)
+       st.sidebar.image(r"images/moistorizer.jpg", caption = "moisturize", use_container_width = True)
+       st.sidebar.image(r"images/sunscreen.jpg", caption = "protect", use_container_width = True)
 
 
        
