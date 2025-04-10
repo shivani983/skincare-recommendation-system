@@ -4,14 +4,14 @@ with open("README.md","r", encoding = "utf-8") as f:
     long_description = f.read()
 
 REPO_NAME = 'ML based skincare recommender system'
-AUTHOR_NAME  = 'shivani virang'
+AUTHOR_NAME  = 'shivani983'
 RSC_REPO = 'skincare_recommender' 
 LIST_OF_REQUIREMENTS = []
 
 setup(
     name = RSC_REPO,
     version = "0.0.1",
-    author = "shivani virang",
+    author = "shivani983",
     description = "A small package for ML based skincare recommendation system ",
     long_description = long_description,
     long_description_content_type = "text/markdown",
